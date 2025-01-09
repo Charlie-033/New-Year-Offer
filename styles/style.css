@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+/* shared styles */
+/* top styles */
+
+.top{
+    color: rgba(255, 251, 251, 0.756);
+    height: 600px;
+    width: 1270px;
+    margin: 50px 140px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(
+        180deg,
+        rgb(9, 9, 9) 2.884%,
+        rgba(16, 16, 16, 0) 101.034%
+        ) , url('../images/Banner\ Image.png');
+}
+
+.top-p{
+    font-size: 32px;
+    padding-top: 150px;
+}
+
+.top-h1{
+    font-size: 72px;
+}
