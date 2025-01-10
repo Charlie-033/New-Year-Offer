@@ -162,3 +162,56 @@
     border: none;
     padding: 16px 32px;
 }
+
+/* coming soon styles */
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 135px 50px 135px;
+}
+
+.left{
+    height: 250px;
+    width: 380px;
+}
+
+.right{
+    height: 330px;
+    width: 270px;
+}
+
+.best-offer{
+    font-size: 24px ;
+    font-weight: 550;
+    color: #FF0000;
+}
+
+.soon{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.coming-description, .right-description{
+    font-size: 20px;
+    color: #616161;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.right-description{
+    margin-bottom: 25px;
+}
+.year{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.middle{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    margin-right: 25px;
+}
