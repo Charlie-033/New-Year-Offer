@@ -135,3 +135,30 @@
     padding-left: 140px;
     
 }
+
+/* Event place styles */
+.event-place{
+    background-color: rgba(255, 0, 0,0.05);
+    height: 460px;
+    width: 1260px;
+    margin: 48px 135px;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+    font-size: 35px;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.join-btn{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF0000;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: none;
+    padding: 16px 32px;
+}
