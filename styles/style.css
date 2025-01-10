@@ -4,24 +4,30 @@
 }
 
 /* shared styles */
+
 .inder-regular {
     font-family: "Inder", serif;
     font-weight: 400;
     font-style: normal;
   }
-  .merriweather-regular {
+  
+.merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }  
+} 
+
+.color-one{
+    color: #FF0000;
+}
 
 /* top styles */
 
 .top{
-    color: rgba(251, 215, 215, 0.756);
+    color: rgba(255, 255, 255, 0.756);
     height: 600px;
     width: 1270px;
-    margin: 50px 140px;
+    margin: 48px 135px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,5 +50,88 @@
 
 .top-h1{
     font-size: 72px;
+    
+}
+
+/* top-2 styles */
+.top-two{
+    text-align: center;
+    margin: 100px 300px;
+}
+
+.image-one{
+    width: 802px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.off{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p-two{
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p-three{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* middle styles */
+.middle-one{
+    color: rgba(252, 252, 252, 0.756);
+    height: 600px;
+    width: 1270px;
+    margin: 48px 135px;
+    text-align:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(
+        90deg,
+        rgb(9, 9, 9) 2.884%,
+        rgba(16, 16, 16, 0) 101.034%
+        ) , url('../images/Vectorrr.png');
+}
+
+.image-two{
+    margin-left: 800px;
+    margin-top: -350px;
+}
+
+.welcome{
+    font-size: 64px;
+    height: 170px;
+    width: 40%;
+    padding-left: 120px;
+    padding-top: 120px;
+    margin-bottom: 24px;
+}
+
+.welcome-description{
+    font-size: 18px;
+    width: 50%;
+    padding-left: 120px;
+    padding-bottom: 45px;
+
+}
+
+.join{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.756);
+    font-size: 20px;
+    padding-left: 140px;
     
 }
